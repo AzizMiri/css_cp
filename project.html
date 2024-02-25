@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>web page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="#home">Home</a>
+  <a href="#news">About</a>
+  <a href="#contact">Job</a>
+  <a href="#about">Resume</a>
+  <a href="#contact">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<!--this is the about section-->
+<div id="about_container">
+  <div class="about_container">
+ <center><h1><b>ABOUT</b></h1></center>
+  <div class="column">
+    <div class="card">
+      <img src="/media/76da03c579566626fa270bdb6df1280b.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Aziz Miri</h2>
+        <p class="title">STUDENT & WEB DEVELOPPER</p>
+        <p>I'm a 17-year-old who's passionate about web development and all things related to it. I'm also a car enthusiast and enjoy spending your free time playing video games and watching movies.</p>
+        <p>azizmiri200@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</div>
+<br />
+<h2><b>JOB</b></h2>
+<form>
+    <label>dream job:</label>
+    <p>I dream of becoming a weeb developper or a cybersecurity engineer</p>
+    <br />
+</form>
+<br />
+<!--this is the cv section-->
+<h3><b>MY Resume</b></h3>
+<form>
+    <label>This is my resume:</label>
+    <p>This is my first portfolio i think it can be better with exepirences but i'm still young so that's it </p>
+</form>
+<br />
+<!--this is the contact section-->
+<h4><b>CONTACT</b></h4>
+<footer>
+  <div class="container">
+    <form>
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Subject</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+  
+  </footer>
+  <script src="https://kit.fontawesome.com/efedb7f467.js" crossorigin="anonymous"></script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+    
+</body>
+</html>
+
+
